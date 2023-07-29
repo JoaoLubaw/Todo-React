@@ -9,11 +9,27 @@ type TarefasState = {
 const initialState: TarefasState = {
   itens: [
     {
-      id: 2,
-      descricao: 'Estudar JS vendo mod 2',
+      id: 1,
+      descricao: 'Clique no botão "Remover" para excluir esta tarefa',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
-      titulo: 'Estudar JS'
+      titulo: 'Excluir tarefa'
+    },
+    {
+      id: 2,
+      descricao:
+        'Clique no botão "Editar" para editar esta tarefa, após alterar a descrição como preferir, clique em "Salvar" para finalizar a edição, ou, aperte em "Cancelar" e volte ao estado anterior.',
+      prioridade: enums.Prioridade.IMPORTANTE,
+      status: enums.Status.CONCLUIDA,
+      titulo: 'Editar tarefa'
+    },
+    {
+      id: 3,
+      descricao:
+        'Adicione uma nova tarefa, clicando no botão de "+" localizado no canto inferior direito da tela. Após isso, se quiser, utilize dos botões na lateral direita da tela para filtrar suas tarefas por nível de prioridade ou estado.',
+      prioridade: enums.Prioridade.IMPORTANTE,
+      status: enums.Status.CONCLUIDA,
+      titulo: 'Criar nova tarefa'
     }
   ]
 }
